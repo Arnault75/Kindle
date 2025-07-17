@@ -7,7 +7,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Sync highlights
+      - name: Sync Kindle
         uses: addnab/docker-run-action@v3
         with:
           image: ghcr.io/arkalim/kindle-to-notion:master
